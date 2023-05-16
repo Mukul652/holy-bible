@@ -1,0 +1,105 @@
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body::before{
+    content: "";
+    background: url('./cover.jpeg') no-repeat center center/cover;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.75;
+}
+.row {
+    margin: 0;
+}
+
+/* Header styles */
+#title {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+h1 {
+    font-size: 48px;
+}
+
+/* Testament styles */
+.testament  {
+    background-color: #d6d2d2;
+    width: 600px;
+    padding: 20px;
+    margin-left: 420px;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+.heading {
+    text-align: center;
+}
+
+.content {
+    white-space: pre-wrap;
+}
+
+/* Quote styles */
+.quote {
+    background-color: #d6d2d2;
+    margin-top: 30px;
+    width: 900px;
+    padding: 20px;
+    margin-left: 280px;
+    border-radius: 5px;
+    font-style: italic;
+}
+
+/* Links styles */
+.links {
+    background-color: #d6d2d2;
+    width: 600px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 420px;
+    border-radius: 5px;
+    /* text-align: center; */
+    justify-content: center;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.link {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+
+.words {
+    background-color: #d6d2d2;
+    margin-top: 30px;
+    width: 900px;
+    width: 600px;
+    text-align: center;
+    margin-left: 420px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.quote.saying {
+    font-style: italic;
+}
+
+.quote.mb-4 {
+    margin-bottom: 4rem;
+}
